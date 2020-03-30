@@ -1,0 +1,18 @@
+#resnet50
+
+
+from keras.applications.resnet50 import ResNet50
+# load model
+model = ResNet50()
+# summarize the model
+model.summary()
+
+
+
+#inception
+
+from keras.applications.inception_v3 import InceptionV3
+# load model
+model = InceptionV3()
+# summarize the model
+model.summary()
